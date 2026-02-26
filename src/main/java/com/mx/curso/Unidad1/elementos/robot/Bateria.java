@@ -1,16 +1,14 @@
 package com.mx.curso.Unidad1.elementos.robot;
 
 public class Bateria {
-    public int nivelEnergia;
+    private int nivelEnergia;
 
     public static void main(String[] args) {
         Bateria bateria = new Bateria();
     }
 
     public void getNivelEnergia(){
-
         System.out.println("Nivel de energía ...");
-
     }
 
 
