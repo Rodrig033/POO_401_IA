@@ -14,12 +14,14 @@ public class Main {
         // 2. "El servicio fue terrible"
         motor.analizar("Hoy es un día muy bueno y estoy feliz");
         motor.analizar("El servicio fue terrible");
+        motor.analizar("Ayer me sentí triste");
+        motor.analizar("Tuve una cena terrible en ese restaurante");
 
 
         /* REFLEXIÓN PARA EL ALUMNO:
            ¿Puedes cambiar la precisión del modelo directamente con miModelo.precision = 5.0?
            No, la precisión debe de estar entre 0.0 y 1.0
            ¿Por qué es importante que el método analizar() oculte los pasos de tokenización?
-
+            No es relevante para el usuario saber los valores que se le asignen a las palabras.
         */
     }}
