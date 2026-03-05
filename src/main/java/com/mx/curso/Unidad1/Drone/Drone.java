@@ -10,9 +10,10 @@ public class Drone {
         this.NivelBateria = NivelBateria;
     }
 
-    Drone DroneOne = new Drone(1, 65);
-    Drone DroneTwo = new Drone(2, 100);
-    Drone DroneThree = new Drone(3, 75);
-
+    public static void main(String[] args) {
+        Drone DroneOne = new Drone(1, 65);
+        Drone DroneTwo = new Drone(2, 100);
+        Drone DroneThree = new Drone(3, 75);
+    }
 
 }
