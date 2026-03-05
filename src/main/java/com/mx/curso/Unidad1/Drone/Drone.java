@@ -17,6 +17,10 @@ public class Drone {
         Drone DroneTwo = new Drone(2, 100);
         Drone DroneThree = new Drone(3, 75);
 
+        System.out.println(DroneOne);
+        System.out.println(DroneTwo);
+        System.out.println(DroneThree);
+
 
     }
 
