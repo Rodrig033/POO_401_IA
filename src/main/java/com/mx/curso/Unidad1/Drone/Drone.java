@@ -1,13 +1,13 @@
 package com.mx.curso.Unidad1.Drone;
 
 public class Drone {
-    private int ID;
+    private int id;
     private int NivelBateria;
 
     // Constructor
-    public Drone(int id, int nivelBateria) {
-        ID = id;
-        NivelBateria = nivelBateria;
+    public Drone(int id, int NivelBateria) {
+        this.id = id;
+        this.NivelBateria = NivelBateria;
     }
 
     Drone DroneOne = new Drone(1, 65);
