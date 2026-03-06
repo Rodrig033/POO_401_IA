@@ -8,8 +8,6 @@ abstract class FiltroImagen {
         this.imagen = imagen;
     }
 
-    public void aplicar(){
-        System.out.println("Aplicar filtro...");
-    }
+    abstract void aplicar();
 
 }
