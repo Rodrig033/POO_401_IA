@@ -8,6 +8,6 @@ public class RobotTerrestre extends AgenteIa{
     @Override
     public void moverse() {
         super.moverse();
-        System.out.println("Calcular las coordenadas en el plano 2D");
+        System.out.println("Calculando las coordenadas en el plano 2D");
     }
 }

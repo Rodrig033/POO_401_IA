@@ -10,6 +10,8 @@ public class DronExplorador extends AgenteIa{
     @Override
     public void moverse() {
         super.moverse();
-        System.out.println("Calcular las coordenadas en el plano 3D");
+        System.out.println("Calculado las coordenadas en el plano 3D");
     }
+
+
 }
