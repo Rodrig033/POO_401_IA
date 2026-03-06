@@ -8,6 +8,6 @@ public class MSE extends Metrica{
 
     @Override
     public void calcularResultado(){
-        System.out.println("Calculando Accuracy...");
+        System.out.println("Calculando MSE..." + DatosPrueba);
     }
 }
