@@ -1,9 +1,9 @@
 package com.mx.curso.Unidad1.dataset;
 
-public abstract class DataSet {
+public class DataSet {
 
     // Método
-      public void CargarDatos(){
+      public void cargarDatos(){
         System.out.println("Cargando Datos...");
     }
 

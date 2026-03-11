@@ -8,7 +8,7 @@ public class AgenteIa {
     }
 
     public void moverse(){
-        System.out.println("El Agente se ha movido en el eje X.");
+        System.out.println("El agente se ha movido en el eje X.");
     }
 
 
