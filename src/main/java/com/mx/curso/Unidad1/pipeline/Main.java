@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Main {
 
+
+
     // Lista polimórfica que acepta cualquier tipo de filtro
     public static void main(String[] args) {
         List<FiltroImagen> pipeline = new ArrayList<>();
