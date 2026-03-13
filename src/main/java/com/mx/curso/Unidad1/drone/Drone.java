@@ -1,4 +1,4 @@
-package com.mx.curso.Unidad1.Drone;
+package com.mx.curso.Unidad1.drone;
 
 public class Drone {
     public int id;
