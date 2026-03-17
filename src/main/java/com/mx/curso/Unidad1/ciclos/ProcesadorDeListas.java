@@ -6,6 +6,8 @@ public class ProcesadorDeListas {
     public static void main(String[] args) {
         String [] frutas = {"manzana", "banana", "pera", "uva"};
         int contador = 0;
+        String letra = "p";
+        int i = 0;
         boolean encontrado = false;
 
 
@@ -15,6 +17,13 @@ public class ProcesadorDeListas {
 
         // Buscar la letra p:
 
+        while (i < frutas.length){
+            if (frutas[i].indexOf(letra) != -1){
+                System.out.println("La letra " + letra + " está en " + frutas[i]);
+                encontrado = true;
+            }
+            i++;
+        }
 
 
 
