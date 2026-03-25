@@ -16,6 +16,7 @@ class SistemaOperativo {
 
     public void ejecutarProcesos(){
         for (Proceso p: procesos){
+            // Polimorfismo
             p.ejecutar();
         }
     }

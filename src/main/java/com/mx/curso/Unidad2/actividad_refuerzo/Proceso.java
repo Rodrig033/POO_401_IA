@@ -9,5 +9,6 @@ abstract class Proceso {
         this.nombre = nombre;
     }
 
+    // Polimorfismo
     public abstract void ejecutar();
 }
