@@ -17,11 +17,8 @@ public class Main {
         for (ProcesadorNLP p: procesadores){
             System.out.println("\n=== Procesador" + p.getClass().getSimpleName() + " ===");
             p.cargarTexto(texto);
-            p.limpiarTexto();
-            List<String> tokens = p.tokenizar();
+            p.procesarTexto();
             Object resultado = p.transformarModelo();
-
-            System.out.println("Tokens: " + tokens);
             System.out.println("Resultados: " + resultado);
 
 

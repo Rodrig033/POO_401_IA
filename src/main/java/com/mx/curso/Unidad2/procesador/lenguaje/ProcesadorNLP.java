@@ -20,4 +20,11 @@ public abstract class ProcesadorNLP {
     public void setTextoCrudo(String textoCrudo) {
         this.textoCrudo = textoCrudo;
     }
+
+    public final Object procesarTexto (){
+        limpiarTexto();
+        tokenizar();
+        return transformarModelo();
+    }
+
 }
