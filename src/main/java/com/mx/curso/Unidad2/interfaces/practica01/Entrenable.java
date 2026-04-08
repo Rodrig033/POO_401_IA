@@ -1,4 +1,4 @@
-package com.mx.curso.Unidad2.interfaces;
+package com.mx.curso.Unidad2.interfaces.practica01;
 
 // Las interfaces por default, los métodos son abstractos:
 interface Serializable{

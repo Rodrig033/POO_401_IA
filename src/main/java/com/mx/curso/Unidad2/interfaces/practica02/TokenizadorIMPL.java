@@ -1,4 +1,4 @@
-package com.mx.curso.Unidad2.practica02;
+package com.mx.curso.Unidad2.interfaces.practica02;
 
 class TokenizadorIMPL implements Tokenizador{
 
