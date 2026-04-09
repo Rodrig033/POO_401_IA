@@ -8,7 +8,7 @@ public class AnalizadorDeNumeros {
     public static void main(String[] args) {
         // Tarea 1
         int suma = 0;
-        for (int i = 0; 1 < 100; i++){
+        for (int i = 0; i < 100; i++){
             suma += i;
         }
 
