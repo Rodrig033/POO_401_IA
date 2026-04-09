@@ -1,4 +1,4 @@
-package com.mx.curso.Unidad2.libros;
+package com.mx.curso.Unidad2.actividades_indp.libros;
 
 public class Libros {
     String titulo;
