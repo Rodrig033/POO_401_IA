@@ -13,6 +13,7 @@ public class Circulo extends FiguraGeometrica{
     double calcularArea() {
        double pi = 3.1416;
        double area = (pi * Math.pow(radio, 2));
+       System.out.println("El área del circulo es: " + area);
        return area;
     }
 
@@ -20,4 +21,14 @@ public class Circulo extends FiguraGeometrica{
     public void mostrarNombre() {
         super.mostrarNombre();
     }
+
+    public double getRadio() {
+        System.out.println("El radio del círculo es: " + radio + " cm");
+        return radio;
+    }
+
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+
 }

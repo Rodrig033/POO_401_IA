@@ -7,12 +7,26 @@ public class Main {
     public static void main(String[] args) {
         List<FiguraGeometrica> figuras = new ArrayList<>();
 
-        figuras.add(new Circulo("Circulo"));
-        figuras.add(new Circulo("Rectangulo"));
+        Circulo ciruclo1 = new Circulo("Círculo");
+        ciruclo1.setRadio(12);
+        figuras.add(ciruclo1);
+
+        Rectangulo rectangulo1 = new Rectangulo("Rectángulo");
+        rectangulo1.setBase(20);
+        rectangulo1.setAltura(25);
+        figuras.add(rectangulo1);
 
         for (FiguraGeometrica figura: figuras){
             figura.mostrarNombre();
+
+            if (figura == ciruclo1){
+                ciruclo1.getRadio();
+            } else if (figura == rectangulo1) {
+                rectangulo1.getBase();
+                rectangulo1.getAltura();
+            }
             figura.calcularArea();
+
         }
     }
 }
