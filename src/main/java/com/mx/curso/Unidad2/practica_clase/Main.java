@@ -11,21 +11,20 @@ public class Main {
         ciruclo1.setRadio(12);
         figuras.add(ciruclo1);
 
-        Circulo circulo2 = new Circulo("Circulo pequeño");
-        circulo2.setRadio(5);
-        figuras.add(circulo2);
 
         Rectangulo rectangulo1 = new Rectangulo("Rectángulo");
         rectangulo1.setBase(20);
         rectangulo1.setAltura(25);
         figuras.add(rectangulo1);
 
+        // Instanceof: Me permite comparar las clases (Mucho más limpio que ==).
+
         for (FiguraGeometrica figura: figuras){
             figura.mostrarNombre();
 
-                if (figura == ciruclo1){
+                if (figura instanceof Circulo){
                 ciruclo1.getRadio();
-            } else if (figura == rectangulo1) {
+            } else if (figura instanceof Rectangulo) {
                 rectangulo1.getBase();
                 rectangulo1.getAltura();
             }
