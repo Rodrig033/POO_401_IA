@@ -11,6 +11,10 @@ public class Main {
         ciruclo1.setRadio(12);
         figuras.add(ciruclo1);
 
+        Circulo circulo2 = new Circulo("Circulo pequeño");
+        circulo2.setRadio(5);
+        figuras.add(circulo2);
+
         Rectangulo rectangulo1 = new Rectangulo("Rectángulo");
         rectangulo1.setBase(20);
         rectangulo1.setAltura(25);
@@ -19,7 +23,7 @@ public class Main {
         for (FiguraGeometrica figura: figuras){
             figura.mostrarNombre();
 
-            if (figura == ciruclo1){
+                if (figura == ciruclo1){
                 ciruclo1.getRadio();
             } else if (figura == rectangulo1) {
                 rectangulo1.getBase();
