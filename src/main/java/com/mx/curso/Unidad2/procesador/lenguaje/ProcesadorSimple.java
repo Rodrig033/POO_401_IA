@@ -1,0 +1,29 @@
+package com.mx.curso.Unidad2.procesador.lenguaje;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+public class ProcesadorSimple extends ProcesadorNLP{
+
+    @Override
+    public List<String> tokenizar() {
+       tokens = new ArrayList<>(Arrays.asList(getTextoCrudo().split("\\s+")));
+       return tokens;
+    }
+
+    @Override
+    public void limpiarTexto() {
+        String textoLimpio = getTextoCrudo().replace(".", " ").replace(",", " ");
+        setTextoCrudo(textoLimpio);
+    }
+
+    @Override
+    public Object transformarModelo() {
+        return tokens.size();
+    }
+
+}
+
+
