@@ -1,4 +1,4 @@
-package com.mx.curso.Unidad2.practica_clase;
+package com.mx.curso.Unidad2.practicas_poo.practica_clase;
 
 public class Rectangulo extends FiguraGeometrica{
     double base;
