@@ -47,4 +47,5 @@ public class Empleado {
         rodrigo.aumentarSalario(30);
         rodrigo.getSalario();
     }
+
 }
