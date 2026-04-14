@@ -6,3 +6,5 @@ public class Mago extends Personaje{
         System.out.println("¡El mago ha lanzado un hechizo!");
     }
 }
+
+
