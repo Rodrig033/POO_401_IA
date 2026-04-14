@@ -17,7 +17,7 @@ public class Main {
         rectangulo1.setAltura(25);
         figuras.add(rectangulo1);
 
-        // Instanceof: Me permite comparar las clases (Mucho más limpio que ==).
+        // Instanceof: Me permite comparar las clases (mucho más limpio que ==).
 
         for (FiguraGeometrica figura: figuras){
             figura.mostrarNombre();
