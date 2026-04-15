@@ -34,12 +34,14 @@ public class MetricaEntrenamiento {
         MetricaEntrenamiento metrica2 = new MetricaEntrenamiento(5, 0.20, 0.40);
         MetricaEntrenamiento metrica3 = new MetricaEntrenamiento(7, 0.70, 0.10);
         MetricaEntrenamiento metrica4 = new MetricaEntrenamiento(4, 0.15, 0.30);
+
+        // Añadir las métricas a la lista
         metricas.add(metrica1);
         metricas.add(metrica2);
         metricas.add(metrica3);
         metricas.add(metrica4);
 
-        // Imprimir la lista de métricas
+        // Imprimir lista de métricas
         System.out.println("---- Lista de métricas ----");
         for (MetricaEntrenamiento metric : metricas) {
             System.out.println(metric);
@@ -61,5 +63,3 @@ public class MetricaEntrenamiento {
         }
     }
 }
-
-
