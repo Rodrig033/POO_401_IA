@@ -1,4 +1,4 @@
-package com.mx.curso.Unidad3.practicas_01.datos_producto;
+package com.mx.curso.Unidad3.datos_producto;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
